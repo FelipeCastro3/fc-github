@@ -28,6 +28,7 @@ font-family: 'Roboto', sans-serif;
 .grillaHeader{
     display: grid;
     grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr) ;
     grid-template-areas: 
     "logo logo logo logo logo"
     "homeTitulo homeTitulo homeTitulo homeTitulo homeTitulo"
@@ -246,12 +247,3 @@ footer nav ul {
 
 
 
-@media screen and (max-width: 768px){
-    .grillaPortada {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: 
-        ""
-    }
-
-}
