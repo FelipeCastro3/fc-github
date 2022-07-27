@@ -9,13 +9,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;500&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap"
         rel="stylesheet">
-	<link rel="stylesheet" href="../css/style.css"> 
-    <!-- GOOGLE FONTs -->
+	<!-- GOOGLE FONTs -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="../css/style.css">
 	<title>TRAEDEUSA</title>
 </head>
 <body>
@@ -27,33 +27,49 @@
         <h1 class="homeTitulo">CONTACTO</h1>
         
         </div>
-            <nav class="barraNav">
-                <ul>
-                    <li> 
-                        <a href="../index.html">HOME</a></li>
-                    <li>
-                        <a href="categorias.html">CATEGORIAS</a></li>
-                    <li>
-                        <a href="nosotros.html">NOSOTROS</a></li>
-                    <li> 
-                        <a href="contacto.html">CONTACTO</a></li>
-                    <li>
-                        <a href="../index.html">PORTADA</a></li>              
+		<nav class="navbar navbar-expand-lg mb-2 colorNav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse colorNav" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="categorias.html">Categorías</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Redes Sociales
+                    </a>
+                    <ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="https://www.instagram.com
+						  ">Instagram</a></li>
+						<li><a class="dropdown-item" href="https://www.facebook.com
+						  ">Facebook</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="https://www.twitter.com
+						  ">Twitter</a></li>
+					  </ul>
+                  </li>
+                  
                 </ul>
-                <div class="busqueda">
-                    <input type="text" name="search" placeholder="buscar" class="src"
-                    autocomplete="off">
-                    <div class="btn">
-                        <i class="search"></i>
-                    </div>
-                </div>
-                <div class=redesSociales>
-                        <img class="icon" src="../images/icons8-facebook-50.png" alt="iconofacebook">
-                        <img class="icon" src="../images/icons8-instagram-50.png" alt="iconoinstagram">
-                        <img class="icon" src="../images/icons8-twitter-50.png" alt="iconotwitter">
-                </div>           
-            </nav>
-        
+                <form class="d-flex" role="search colorNav" >
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
         
    
     </header>
