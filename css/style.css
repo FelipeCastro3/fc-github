@@ -49,6 +49,9 @@ header, .grillaHeader{
 .logoHeader{
     grid-area: logo;
     margin-top: 20px;
+    width: 100%;
+    height: auto;
+    max-width: fit-content;
         
 }
 .homeTitulo{
@@ -254,4 +257,12 @@ nav{
 .colorNav{
     color: #D7A86E;
     
+}
+.noticias{
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-top: 1em;
+    color: #D7A86E;
 }
