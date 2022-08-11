@@ -1,6 +1,6 @@
 .contacto1 {
     background: white;
-    color: $colorPrincipal;
+    color: #D7A86E;
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
     padding: 0 1.5em;
@@ -23,11 +23,11 @@
 }
 
 .logo1 span {
-    color: $colorPrincipal;
+    color: #D7A86E;
 }
 
 .contact-wrapper {
-    box-shadow: 0 0 20px 0 $colorPrincipal;
+    box-shadow: 0 0 20px 0 #D7A86E;
 }
 
 .contact-wrapper > * {
@@ -64,12 +64,12 @@
     border: none;
     background: none;
     outline: 0;
-    color: $colorPrincipal;
-    border-bottom: 1px solid $colorPrincipal;
+    color: #D7A86E;
+    border-bottom: 1px solid #D7A86E;
 }
 
 .contact-form form button {
-    background: $colorPrincipal;
+    background: #D7A86E;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -77,7 +77,7 @@
 
 .contact-form form button:hover,
 .contact-form form button:focus {
-    background: $colorPrincipal;
+    background: #D7A86E;
     color: #fff;
     transition: background-color 1s ease-out;
     outline: 0;
@@ -91,4 +91,9 @@
 .contact-info h4, .contact-info ul, .contact-info p {
     text-align: center;
     margin: 0 0 1rem 0;
+}
+
+.informacion1{
+    display: flex;
+    justify-content: center;
 }
