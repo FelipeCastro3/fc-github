@@ -1,0 +1,93 @@
+@media (max-width:768px){
+        .tarjetas1{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-template-areas: 
+        "tarjeta1 tarjeta2"
+        "tarjeta3 tarjeta4"
+       
+       ;
+       margin-right: 0%;
+       margin-left: 0%;
+       height: 700px;
+       
+    }
+    .muebles1{
+        font-size: 2.0em;
+    }
+   .homeTitulo{
+    font-size: 2.3em;
+   }
+   body{
+    background-image: url("https://i.pinimg.com/736x/8d/e5/5c/8de55cb61edfb59bc2e3bc7ca7fbeb28.jpg");
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: cover;
+    }
+
+.card-cat{
+        width: 75%;
+        margin-right: 12.5%;
+        margin-left: 12.5%;
+}
+.card-not{
+        width: 75%;
+        margin-right: 12.5%;
+        margin-left: 12.5%;
+}
+
+
+.nosotros{
+  display: grid;
+  grid-template-columns: (1, 1fr);
+  grid-template-areas: 
+  
+  "imagenNosotros"
+  "textoN"
+  
+  
+  ;
+  
+  width: 100%;
+}
+
+.imgNos{
+  grid-area: imagenNosotros;
+  width: 75%;
+  margin-right: 12.5%;
+  margin-left: 12.5%;
+}
+
+.pNosotros{
+  grid-area: textoN;
+  width: 82%;
+  margin-right: 9%;
+  margin-left: 9%;
+  margin-top: 3%;
+  
+}   
+
+.imgN1{
+  width: 100%;
+      
+}
+
+.pn2{
+  font-size: 100%;
+  margin-top: 2%;
+}
+
+
+
+  }
+
+
+  @media (min-width:992px){
+        
+    .card{
+        width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+  }
