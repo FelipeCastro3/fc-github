@@ -1,36 +1,115 @@
-@media (max-width:768px){
-        .tarjetas1{
-       display: grid;
-       grid-template-columns: repeat(2, 1fr);
-       grid-template-areas: 
-        "tarjeta1 tarjeta2"
-        "tarjeta3 tarjeta4"
-       
-       ;
-       margin-right: 0%;
-       margin-left: 0%;
-       height: 700px;
-       
+@media (max-width:576px){
+  
+  .homeTitulo{
+    font-size: 1.9em;
+   }
+  .gapO{
+    gap: 4%;
+  }
+  .cajaPrincipalIndex{
+    height: 650px;
+  
+  }
+  .parrafoIndex1{
+    font-size: 0.9em;
     }
+  .cajaIndex1{
+    width: 90%;
+    height: 19%;
+  }
+  .parrafoIndex2 {
+    font-size: 0.8em;
+}
+
+.tamaño1{
+  width: fit-content;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pn2{
+  margin-top: 2%;
+  font-size: 0.6em;
+  font-weight: bold;
+}
+.tituloNosotros1{
+  width: 80%;
+  top: 4%;
+}
+
+.tituloFooterSub{
+  width: 80%;
+  font-size: 0.5em;
+  
+}
+.footerGeneral{
+  top: 5%;
+
+}
+
+.responsiveContacto{
+  font-size: 0.7em;
+}
+
+.responsiveContacto2{
+  font-size: 0.5em;
+
+}
+
+
+
+
+.footerPages{
+  flex-direction: column;
+  
+}
+}
+
+
+
+@media (min-width:576px){
+  .parrafoIndex1{
+    font-size: 1em;
+    margin-top: 3%;
+    }
+  
+  .parrafoIndex2 {
+    
+    font-size: 0.9em;
+}
+
+.cajaPrincipalIndex{
+  height: 1000px;
+
+}
+.cajaIndex1{
+  width: 80%;
+  height: 12%;
+}
+
+
     .muebles1{
-        font-size: 2.0em;
+        font-size: 2.3em;
+        
     }
+
    .homeTitulo{
     font-size: 2.3em;
    }
-   body{
-    background-image: url("https://i.pinimg.com/736x/8d/e5/5c/8de55cb61edfb59bc2e3bc7ca7fbeb28.jpg");
-    background-repeat:no-repeat;
-    background-position-x:center;
-    background-position-y:center;
-    background-size: cover;
-    }
+   
 
 .card-cat{
-        width: 75%;
-        margin-right: 12.5%;
-        margin-left: 12.5%;
+        width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
+
 }
+.responsiveLetraCat{
+  font-size: 1em;
+}
+
 .card-not{
         width: 75%;
         margin-right: 12.5%;
@@ -38,19 +117,7 @@
 }
 
 
-.nosotros{
-  display: grid;
-  grid-template-columns: (1, 1fr);
-  grid-template-areas: 
-  
-  "imagenNosotros"
-  "textoN"
-  
-  
-  ;
-  
-  width: 100%;
-}
+
 
 .imgNos{
   grid-area: imagenNosotros;
@@ -74,20 +141,173 @@
 }
 
 .pn2{
-  font-size: 100%;
   margin-top: 2%;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.tituloNosotros1{
+  width: 80%;
 }
 
 
+.responsiveLetraOfe{
+  font-size: 0.9em;
+}
+.card-ofe{
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+.footerGeneral{
+  top: 6%;
+
+}
+
+.tituloFooterSub{
+  width: 80%;
+  font-size: 0.7em;
+  
+}
+
+.responsiveContacto{
+  font-size: 1.2em;
+}
 
   }
 
 
-  @media (min-width:992px){
+ 
+@media (min-width:768px){
         
     .card{
         width: 50%;
         margin-right: 25%;
         margin-left: 25%;
     }
+
+    .cajaPrincipalIndex{
+      height: 600px;
+    
+    }
+
+    .cajaIndex1{
+      width: 70%;
+      height: 19%;
+    }
+
+    .card-cat{
+      width: 75%;
+      margin-right: 12.5%;
+      margin-left: 12.5%;
+
+
+    }
+    
+    .responsiveLetraOfe{
+      font-size: 0.8em;
+    }
+  
+    .card-ofe{
+      width: 80%;
+      margin-right: 10%;
+      margin-left: 10%;
+      
+    }
+   
+    .tituloNosotros1{
+      width: 60%;
+    }
+    
+    .footerGeneral{
+      top: 10%;
+    
+    }
+    
+    .tituloFooterSub{
+      width: 80%;
+      font-size: 0.8em;
+      
+    }
   }
+
+ @media (min-width:992px){
+   
+  .cajaPrincipalIndex{
+    height: 700px;
+  
+  }
+  .cajaIndex1{
+    width: 40%;
+    height: 19%;
+  }
+  
+  .card-cat{
+      width: 50%;
+      margin-right: 25%;
+      margin-left: 25%;
+
+} 
+
+    .card-ofe{
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.responsiveLetraOfe{
+  font-size: 0.8em;
+}
+.pn2{
+  margin-top: 2%;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.tituloNosotros1{
+  width: 60%;
+}
+
+.footerGeneral{
+  top: 8%;
+
+}
+
+.tituloFooterSub{
+  width: 80%;
+  font-size: 0.9em;
+  
+}
+    
+  }
+
+
+
+@media (min-width:1400px){
+    .card-ofe{
+      width: 50%;
+      margin-right: 25%;
+      margin-left: 25%;
+
+} 
+    .responsiveLetraOfe{
+    font-size: 1.0em;
+}
+.pn2{
+  margin-top: 2%;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+.tituloNosotros1{
+  width: 50%;
+}
+
+.footerGeneral{
+  top: 15%;
+
+}
+
+.tituloFooterSub{
+  width: 80%;
+  font-size: 1em;
+  
+}
+}

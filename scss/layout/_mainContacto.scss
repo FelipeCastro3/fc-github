@@ -45,6 +45,8 @@
 .contact-form form {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100%;
+    
 }
 
 .contact-form form label {
@@ -68,9 +70,10 @@
     border: none;
     background: none;
     outline: 0;
-    color: #D7A86E;
     border-bottom: 1px solid #D7A86E;
 }
+
+
 
 .contact-form form button {
     background: #D7A86E;
@@ -100,4 +103,8 @@
 .informacion1{
     display: flex;
     justify-content: center;
+}
+
+p button{
+    color: #fff;
 }

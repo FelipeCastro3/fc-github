@@ -1,5 +1,0 @@
-.form-control{
-    color: $colorPrincipal;
-    border: 1px solid #D7A86E;
-
-}

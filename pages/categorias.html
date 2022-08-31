@@ -11,15 +11,19 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;500&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap"
         rel="stylesheet">
-        <link
-        href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;500&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap"
-        rel="stylesheet">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+	<!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- CSS ANIMADO -->
+    <!-- LINK DE AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="../css/style.css">
     <title>CATEGORÍAS</title>
 </head>
-<body>
+<body class="bodyCategorias">
   <header>
         
     <div class="logoHeader">
@@ -67,7 +71,7 @@
                   
                 </ul>
                 <form class="d-flex" role="search" >
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <input class="form-control me-2" type="Buscar" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
               </div>
@@ -81,23 +85,29 @@
   <div id="carouselExampleControls" class="carousel slide categorias2" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="6000">
-        <img src="../images/muebles.jpg" class="d-block w-100" alt="...">
+        <img src="../images/deportes2.jpg" class="d-block w-100" alt="Amplia variedad de deportes">
         <div class="carousel-caption d-none d-md-block">
-          <h5>MUEBLES DEL HOGAR</h5>
+          <h2>
+            <a class="subTituloCarrousel" title="Deporte" href="categorias.html#Deporte">DEPORTE</a>
+          </h2>
           
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="6000">
-        <img src="../images/ropa.jpg" class="d-block w-100" alt="...">
+        <img src="../images/ropa.jpg" class="d-block w-100" alt="Ropa en perchas">
         <div class="carousel-caption d-none d-md-block">
-          <h5>ROPA Y ACCESORIOS</h5>
+          <h2>
+            <a class="subTituloCarrousel" title="Ropa y accesorios" href="categorias.html#Ropayaccesorios">ROPA Y ACCESORIOS</a>
+          </h2>
           
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="6000">
-        <img src="../images/tecnologia.jpg" class="d-block w-100" alt="...">
+        <img src="../images/tecnologia.jpg" class="d-block w-100" alt="Variedad de dispositivos tecnológicos">
         <div class="carousel-caption d-none d-md-block">
-          <h5>TECNOLOGÍA</h5>
+          <h2>
+            <a class="subTituloCarrousel" title="Tecnologia" href="categorias.html#Tecnologia">TECNOLOGÍA</a>
+          </h2>
           
         </div>
       </div>
@@ -112,64 +122,932 @@
     </button>
   </div>
 </div>
-<div class="muebles1">
-  <div data-aos="zoom-in"  class="tituloMuebles">MUEBLES DEL HOGAR</div>
+
+<!-- Comienza otra sección -->
+
+<div id="Deporte" class="titulosCategorias">
+  <h2 data-aos="zoom-in">DEPORTE</h2>
 </div>
 
 
-<div class="row row-cols-2 row-cols-md-4 g-4">
-  <div class="col1">
-    <div class="card-cat">
-      <img src="../images/sofa.png" class="card-img-top imgcat" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Sofas</h5>
-        <p class="card-text"></p>
+
+
+<div class="tituloSubCategorias">
+  
+  <div class="marginCat">
+  
+    <div data-aos="fade-right" class="row1 row-cols-2 row-cols-md-4 g-2 gapO scroll snaps-inline">
+      <div class="col">
+        <div class="card-ofe">
+          <img src="../images/calzado1.jpg" class="card-img-top imgcat imagenSub" alt="Calzado para correr">
+          <div class="card-body cajaSubCat">
+            <a href="#openModal1" class="cajaSubCategoria">Calzado Running</a>
+            <p class="card-text"></p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col1">
-    <div class="card-cat">
-      <img src="../images/mesa2.png" class="card-img-top imgcat" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Mesas de comedor</h5>
-        <p class="card-text"></p>
+      <div class="col">
+        <div class="card-ofe">
+          <img src="../images/buzosdeportivos.webp" class="card-img-top imgcat imagenSub" alt="Buzo deportivo">
+          <div class="card-body cajaSubCat">
+            <a href="#openModal2" class="cajaSubCategoria">Buzo</a>
+            <p class="card-text"></p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col1">
-    <div class="card-cat">
-      <img src="../images/armario3.png" class="card-img-top imgcat" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Armarios</h5>
-        <p class="card-text"></p>
+      <div class="col">
+        <div class="card-ofe">
+          <img src="../images/short.jpg" class="card-img-top imgcat imagenSub" alt="Short deportivo">
+          <div class="card-body cajaSubCat">
+            <a href="#openModal3" class="cajaSubCategoria">Short</a>
+            <p class="card-text"></p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card-cat">
-      <img src="../images/estanteria-removebg-preview.png" class="card-img-top imgcat" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Estanterías</h5>
-        <p class="card-text"></p>
+      <div class="col">
+        <div class="card-ofe">
+          <img src="../images/championesF11.jpg" class="card-img-top imgcat imagenSub" alt="Championes de Fútbol 11">
+          <div class="card-body cajaSubCat">
+            <a href="#openModal4" class="cajaSubCategoria">Championes F11</a>
+            <p class="card-text"></p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+        
+
+
+   </div>
+
+
 </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="openModal1" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+  
+  
+    <div class="row1 row-cols-2 row-cols-md-4 g-2 scroll snaps-inline ">
+      <div class="col1 card1A">
+        <div class="card-cat">
+          <img src="../images/calzado2.jpg" class="card-img-top imgcat imagenSub" alt="Calzado deportivo Adidas">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Adidas</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1B">
+        <div class="card-cat">
+          <img src="../images/calzado3.jpg" class="card-img-top imgcat imagenSub" alt="Calzado deportivo Topper">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Topper</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1C">
+        <div class="card-cat">
+          <img src="../images/calzado4.jpg" class="card-img-top imgcat imagenSub" alt="Calzado deportivo Puma">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Puma</h5>
+            <p class="card-text"></p>
+          </div> 
+        </div>
+      </div>
+      <div class="col card1D">
+        <div class="card-cat">
+          <img src="../images/calzado5.jpg" class="card-img-top imgcat imagenSub" alt="Calzado deportivo Umbro">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Umbro</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</div>
+
+
+
+
+      
+
+<div id="openModal2" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+  
+
+  
+    <div class="row1 row-cols-2 row-cols-md-4 g-2 scroll snaps-inline ">
+      <div class="col1 card1A">
+        <div class="card-cat">
+          <img src="../images/buzo1.jpg" class="card-img-top imgcat imagenSub" alt="Buzo deportivo Under Armour">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Under Armour</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1B">
+        <div class="card-cat">
+          <img src="../images/buzo2.jpg" class="card-img-top imgcat imagenSub" alt="Buzo deportivo Puma">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Puma</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1C">
+        <div class="card-cat">
+          <img src="../images/buzo3.jpg" class="card-img-top imgcat imagenSub" alt="Buzo deportivo Umbro">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Umbro</h5>
+            <p class="card-text"></p>
+          </div> 
+        </div>
+      </div>
+      <div class="col card1D">
+        <div class="card-cat">
+          <img src="../images/buzo4.jpg" class="card-img-top imgcat imagenSub" alt="Buzo deportivo Adidas">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Adidas</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+<div id="openModal3" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+  
+
+  
+    <div class="row1 row-cols-2 row-cols-md-4 g-2 scroll snaps-inline ">
+      <div class="col1 card1A">
+        <div class="card-cat">
+          <img src="../images/short1.jpg" class="card-img-top imgcat imagenSub" alt="Short deportivo Under Armour">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Under Armour</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1B">
+        <div class="card-cat">
+          <img src="../images/short2.jpg" class="card-img-top imgcat imagenSub" alt="Short deportivo Umbro">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Umbro</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1C">
+        <div class="card-cat">
+          <img src="../images/short3.jpg" class="card-img-top imgcat imagenSub" alt="Short deportivo Adidas">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Adidas</h5>
+            <p class="card-text"></p>
+          </div> 
+        </div>
+      </div>
+      <div class="col card1D">
+        <div class="card-cat">
+          <img src="../images/short4.jpg" class="card-img-top imgcat imagenSub" alt="Short deportivo Puma">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Puma</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<div id="openModal4" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+  
+
+  
+    <div class="row1 row-cols-2 row-cols-md-4 g-2 scroll snaps-inline ">
+      <div class="col1 card1A">
+        <div class="card-cat">
+          <img src="../images/champion1.jpg" class="card-img-top imgcat imagenSub" alt="Champion de fútbol 11 Puma">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Puma</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1B">
+        <div class="card-cat">
+          <img src="../images/champion2.jpg" class="card-img-top imgcat imagenSub" alt="Champion de fútbol 11 Adidas">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Adidas</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1C">
+        <div class="card-cat">
+          <img src="../images/champion3.jpg" class="card-img-top imgcat imagenSub" alt="Champion de fútbol 11 Under Armour">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Under Armour</h5>
+            <p class="card-text"></p>
+          </div> 
+        </div>
+      </div>
+      <div class="col card1D">
+        <div class="card-cat">
+          <img src="../images/champion4.jpg" class="card-img-top imgcat imagenSub" alt="Champion de fútbol 11 Umbro">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Umbro</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+<!-- Comienza otra sección -->
+
+
+<div id="Ropayaccesorios" class="titulosCategorias">
+  <h2 data-aos="zoom-in">ROPA Y ACCESORIOS</h2>
+</div>
+
+
+<div class="tituloSubCategorias">
+  
+  <div class="marginCat">
+  
+    <div data-aos="zoom-in" class="row1 row-cols-2 row-cols-md-4 g-2 gapO scroll snaps-inline">
+      <div class="col">
+        <div class="card-ofe">
+          <img src="../images/mochila1.jpg" class="card-img-top imgcat imagenSub" alt="Mochila">
+          <div class="card-body cajaSubCat">
+            <a href="#openModal5" class="cajaSubCategoria">Mochila</a>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-ofe">
+          <img src="../images/camisa.jpg" class="card-img-top imgcat imagenSub" alt="Camisa Formal">
+          <div class="card-body cajaSubCat">
+            <a href="#openModal6" class="cajaSubCategoria">Camisa Formal</a>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-ofe">
+          <img src="../images/jean.jpg" class="card-img-top imgcat imagenSub" alt="Jean">
+          <div class="card-body cajaSubCat">
+            <a href="#openModal7" class="cajaSubCategoria">Jean</a>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-ofe">
+          <img src="../images/gorro.jpg" class="card-img-top imgcat imagenSub" alt="Gorro">
+          <div class="card-body cajaSubCat">
+            <a href="#openModal8" class="cajaSubCategoria">Gorro</a>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    
+        
+
+
+   </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="openModal5" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+  
+
+  
+    <div class="row1 row-cols-2 row-cols-md-4 g-2 scroll snaps-inline ">
+      <div class="col1 card1A">
+        <div class="card-cat">
+          <img src="../images/mochila2.jpg" class="card-img-top imgcat imagenSub" alt="Mochila Salomon">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Salomon</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1B">
+        <div class="card-cat">
+          <img src="../images/mochila3.jpg" class="card-img-top imgcat imagenSub" alt="Mochila QuickSilver">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">QuickSilver</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1C">
+        <div class="card-cat">
+          <img src="../images/mochila4.jpg" class="card-img-top imgcat imagenSub" alt="Mochila Rip Curl">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Rip Curl</h5>
+            <p class="card-text"></p>
+          </div> 
+        </div>
+      </div>
+      <div class="col card1D">
+        <div class="card-cat">
+          <img src="../images/mochila5.jpg" class="card-img-top imgcat imagenSub" alt="Mochila New Balance">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">New Balance</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<div id="openModal6" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+  
+
+  
+    <div class="row1 row-cols-2 row-cols-md-4 g-2 scroll snaps-inline ">
+      <div class="col1 card1A">
+        <div class="card-cat">
+          <img src="../images/camisa1.jpg" class="card-img-top imgcat imagenSub" alt="Camisa formal Charset">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Charset</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1B">
+        <div class="card-cat">
+          <img src="../images/camisa2.jpg" class="card-img-top imgcat imagenSub" alt="Camisa formal Charset Turnbull & Asser">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Turnbull & Asser</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1C">
+        <div class="card-cat">
+          <img src="../images/camisa3.jpg" class="card-img-top imgcat imagenSub" alt="Camisa formal Anna Matuozzo">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Anna Matuozzo</h5>
+            <p class="card-text"></p>
+          </div> 
+        </div>
+      </div>
+      <div class="col card1D">
+        <div class="card-cat">
+          <img src="../images/camisa4.jpg" class="card-img-top imgcat imagenSub" alt="Camisa formal Lorenzini">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Lorenzini</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+<div id="openModal7" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+  
+
+  
+    <div class="row1 row-cols-2 row-cols-md-4 g-2 scroll snaps-inline ">
+      <div class="col1 card1A">
+        <div class="card-cat">
+          <img src="../images/jean1.jpg" class="card-img-top imgcat imagenSub" alt="Jean Levi's">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Levi's</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1B">
+        <div class="card-cat">
+          <img src="../images/jean2.jpg" class="card-img-top imgcat imagenSub" alt="Jean Liu Jo">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Liu Jo</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1C">
+        <div class="card-cat">
+          <img src="../images/jean3.jpg" class="card-img-top imgcat imagenSub" alt="Jean J. Brand">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">J. Brand</h5>
+            <p class="card-text"></p>
+          </div> 
+        </div>
+      </div>
+      <div class="col card1D">
+        <div class="card-cat">
+          <img src="../images/jean4.jpg" class="card-img-top imgcat imagenSub" alt="Jean Paige">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Paige</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<div id="openModal8" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+  
+
+  
+    <div class="row1 row-cols-2 row-cols-md-4 g-2 scroll snaps-inline ">
+      <div class="col1 card1A">
+        <div class="card-cat">
+          <img src="../images/gorro1.jpg" class="card-img-top imgcat imagenSub" alt="Gorro Under Armour">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Under Armour</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1B">
+        <div class="card-cat">
+          <img src="../images/gorro2.jpg" class="card-img-top imgcat imagenSub" alt="Gorro Puma">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Puma</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1C">
+        <div class="card-cat">
+          <img src="../images/gorro3.jpg" class="card-img-top imgcat imagenSub" alt="Gorro Adidas">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Adidas</h5>
+            <p class="card-text"></p>
+          </div> 
+        </div>
+      </div>
+      <div class="col card1D">
+        <div class="card-cat">
+          <img src="../images/gorro4.jpg" class="card-img-top imgcat imagenSub" alt="Gorro The Nort Face">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">The North Face</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+<!-- Comienza otra sección -->
+
+  
+<div id="Tecnologia" class="titulosCategorias">
+  <h2 data-aos="zoom-in">TECNOLOGÍA</h2>
+</div>
+
+
+<div class="tituloSubCategorias">
+  
+  <div class="marginCat">
+  
+    <div class="row1 row-cols-2 row-cols-md-4 g-2 gapO scroll snaps-inline">
+      <div class="col">
+        <div class="card-ofe">
+          <img src="../images/tablet.jpg" class="card-img-top imgcat imagenSub" alt="Tablet">
+          <div class="card-body cajaSubCat">
+            <a href="#openModal9" class="cajaSubCategoria">Tablet</a>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-ofe">
+          <img src="../images/laptop.jpg" class="card-img-top imgcat imagenSub" alt="Laptop">
+          <div class="card-body cajaSubCat">
+            <a href="#openModal10" class="cajaSubCategoria">Computadora Portatil</a>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-ofe">
+          <img src="../images/maquinadeafeitar.jpg" class="card-img-top imgcat imagenSub" alt="Afeitadora">
+          <div class="card-body cajaSubCat">
+            <a href="#openModal11" class="cajaSubCategoria">Afeitadora</a>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-ofe">
+          <img src="../images/televisor.jpg" class="card-img-top imgcat imagenSub" alt="Smart TV">
+          <div class="card-body cajaSubCat">
+            <a href="#openModal12" class="cajaSubCategoria">Smart TV</a>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+        
+
+
+   </div>
+
+
+</div>
+
+
+
+
+<div id="openModal9" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+  
+
+  
+    <div class="row1 row-cols-2 row-cols-md-4 g-2 scroll snaps-inline ">
+      <div class="col1 card1A">
+        <div class="card-cat">
+          <img src="../images/tablet1.png" class="card-img-top imgcat imagenSub" alt="Tablet Samsung">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Samsung</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1B">
+        <div class="card-cat">
+          <img src="../images/tablet2.png" class="card-img-top imgcat imagenSub" alt="Tablet Apple">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Apple</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1C">
+        <div class="card-cat">
+          <img src="../images/tablet3.jpg" class="card-img-top imgcat imagenSub" alt="Tablet Huawei">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Huawei</h5>
+            <p class="card-text"></p>
+          </div> 
+        </div>
+      </div>
+      <div class="col card1D">
+        <div class="card-cat">
+          <img src="../images/tablet4.jpg" class="card-img-top imgcat imagenSub" alt="Tablet Xiaomi">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Xiaomi</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+<div id="openModal10" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+  
+
+  
+    <div class="row1 row-cols-2 row-cols-md-4 g-2 scroll snaps-inline ">
+      <div class="col1 card1A">
+        <div class="card-cat">
+          <img src="../images/laptop1.jpg" class="card-img-top imgcat imagenSub" alt="Laptop Asus">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Asus</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1B">
+        <div class="card-cat">
+          <img src="../images/laptop2.jpg" class="card-img-top imgcat imagenSub" alt="Laptop HP">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">HP</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1C">
+        <div class="card-cat">
+          <img src="../images/laptop3.jpg" class="card-img-top imgcat imagenSub" alt="Laptop Acer">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Acer</h5>
+            <p class="card-text"></p>
+          </div> 
+        </div>
+      </div>
+      <div class="col card1D">
+        <div class="card-cat">
+          <img src="../images/laptop4.png" class="card-img-top imgcat imagenSub" alt="Laptop Apple">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Apple</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<div id="openModal11" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+  
+
+  
+    <div class="row1 row-cols-2 row-cols-md-4 g-2 scroll snaps-inline ">
+      <div class="col1 card1A">
+        <div class="card-cat">
+          <img src="../images/afeitadora1.jpg" class="card-img-top imgcat imagenSub" alt="Afeitadora Remington">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Remington</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1B">
+        <div class="card-cat">
+          <img src="../images/afeitadora2.jpg" class="card-img-top imgcat imagenSub" alt="Afeitadora Philips">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Philips</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1C">
+        <div class="card-cat">
+          <img src="../images/afeitadora3.jpg" class="card-img-top imgcat imagenSub" alt="Afeitadora Panasonic">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Panasonic</h5>
+            <p class="card-text"></p>
+          </div> 
+        </div>
+      </div>
+      <div class="col card1D">
+        <div class="card-cat">
+          <img src="../images/afeitadora4.jpg" class="card-img-top imgcat imagenSub" alt="Afeitadora Braun">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Braun</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+<div id="openModal12" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+  
+
+  
+    <div class="row1 row-cols-2 row-cols-md-4 g-2 scroll snaps-inline ">
+      <div class="col1 card1A">
+        <div class="card-cat">
+          <img src="../images/televisor1.jpg" class="card-img-top imgcat imagenSub" alt="Televisor Sony">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Sony</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1B">
+        <div class="card-cat">
+          <img src="../images/televisor2.jpg" class="card-img-top imgcat imagenSub" alt="Televisor TCL">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">TCL</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col1 card1C">
+        <div class="card-cat">
+          <img src="../images/televisor3.jpg" class="card-img-top imgcat imagenSub" alt="Televisor LG">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">LG</h5>
+            <p class="card-text"></p>
+          </div> 
+        </div>
+      </div>
+      <div class="col card1D">
+        <div class="card-cat">
+          <img src="../images/televisor4.jpg" class="card-img-top imgcat imagenSub" alt="Televisor Xiaomi">
+          <div class="card-body">
+            <h5 class="card-title responsiveLetraCat">Xiaomi</h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </main>
 
-  <footer>
-    <div class="footerPages">
-        <a title="facebook" href="https://www.facebook.com"><img src="../images/icons8-facebook-50.png" class="card-img-top" alt="Icono Facebook" /></a>
-        <a title="instagram" href="https://www.instagram.com"><img src="../images/icons8-instagram-50.png" class="card-img-top" alt="Icono Instagram" /></a>
-        <a title="twitter" href="https://www.twitter.com"><img src="../images/icons8-twitter-50.png" class="card-img-top" alt="Icono Twitter" /></a>
-    
-        
+
+<footer >
+
+  <div class="footerGeneral">
+
+    <div class="tituloFooter">
+      <div class="tituloFooterSub">
+      <h3>Sobre nosotros</h3>
+      <p>Somos una empresa que se dedica a la importacion de productos desde los Estados Unidos, simplificando los tramites, con los menores costos.</p>
+     </div>
     </div>
-</footer>  
+
+    <div class="tituloFooter2">
+          <h3 class="tituloFooterSub">Síguenos en las redes</h3>
+      
+            <div class="footerPages">
+              <a title="facebook" href="https://www.facebook.com"><img src="../images/icons8-facebook-50.png" class="img-fluid" alt="Icono Facebook" /></a>
+              <a title="instagram" href="https://www.instagram.com"><img src="../images/icons8-instagram-50.png" class="img-fluid" alt="Icono Instagram " /></a>
+              <a title="twitter" href="https://www.twitter.com"><img src="../images/icons8-twitter-50.png" class=" img-fluid" alt="Icono Twitter" /></a>
+            </div>
+    </div>
+    
+    <div class="footerContacto">
+          
+
+          <div class="contact-info">
+            <h3 class="informacion1 responsiveContacto">Como contactárnos</h3>
+            <ul class="ulcontacto posicionContacto">
+              <li class="responsiveContacto2"><i class="fas fa-map-marker-alt"></i> Montevideo</li>
+              <li class="responsiveContacto2"><i class="fas fa-phone"></i> (111) 111 111 111</li>
+              <li class="responsiveContacto2"><i class="fas fa-envelope-open-text"></i> traedeusa@correo.com</li>
+            </ul>
+            
+          </div>
+        
+
+    </div>
+
+
+  </div>
+</footer>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+
+
+    
   </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
