@@ -1,47 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
 
-.tituloNosotros{
-    display: flex;
-    justify-content: center;
-    color: $colorPrincipal;
-    margin-top: 1%;
-    margin-bottom: 2%;
-}
 
-.nosotros{
-    display: grid;
-    grid-template-columns: (2, 1fr);
-    grid-template-areas: 
-    
-    "imagenNosotros textoN"
-    
-    
-    
-    ;
-    
-    width: 100%;
-    margin-bottom: 4%;
-}
 
-.imgNos{
-    grid-area: imagenNosotros;
-    width: 86%;
-    margin-right: 12%;
-    margin-left: 12%;
-}
-
-.pNosotros{
-    grid-area: textoN;
-    width: 82%;
-    margin-right: 9%;
-    margin-left: 9%;
-    
-}   
-
-.imgN1{
-    width: 100%;
-        
-}
 
 .pn2{
     margin-top: 2%;
