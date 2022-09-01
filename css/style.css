@@ -75,7 +75,9 @@
 
 /*INFO CONTACTO */
 .contact-info {
-  background: rgba(255, 255, 255, 0.925); }
+  background: rgba(255, 255, 255, 0.925);
+  padding: 2%;
+  border-radius: 1em; }
 
 .contact-info h4, .contact-info ul, .contact-info p {
   text-align: center;
@@ -354,10 +356,10 @@ svg {
   margin-top: 2%;
   font-size: 1.2em;
   font-weight: bold;
-  color: #D7A86E; }
+  color: white; }
 
 .nosotrosFondo {
-  background-image: url(https://venderenaliexpress.es/wp-content/uploads/2020/04/shutterstock_1024344034-scaled.jpg);
+  background-image: url(https://www.stephens-scown.co.uk/app/uploads/2021/06/Disputes-Business_Header_1.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -373,8 +375,10 @@ svg {
   width: 50%;
   font-size: 1.5em;
   margin-left: 10%;
-  color: #D7A86E;
-  font-family: DynaPuff; }
+  color: white;
+  font-family: DynaPuff;
+  background-color: rgba(32, 25, 18, 0.384);
+  padding: 1%; }
 
 .titulosIndex {
   margin-top: 1em;
@@ -679,7 +683,8 @@ footer {
   color: white; }
 
 .tituloFooterSub {
-  width: 80%; }
+  width: 100%;
+  text-align: center; }
 
 .tituloFooter2 {
   width: 33.3%;
@@ -727,6 +732,8 @@ main {
     font-size: 0.8em; }
   .tamaño1 {
     width: fit-content; }
+  .categorias2 {
+    margin-top: 0%; }
   .content {
     display: flex;
     flex-direction: column;
@@ -737,18 +744,26 @@ main {
     font-weight: bold; }
   .tituloNosotros1 {
     width: 80%;
-    top: 4%; }
+    top: 3%; }
+  .contenedor1 {
+    text-align: center; }
   .tituloFooterSub {
-    width: 80%;
+    text-align: center;
+    font-size: 0.7em; }
+  .parrafoFooter {
     font-size: 0.5em; }
+  .tituloFooterSub2 {
+    font-size: 0.6em; }
   .footerGeneral {
-    top: 5%; }
+    top: 10%; }
   .responsiveContacto {
     font-size: 0.7em; }
   .responsiveContacto2 {
     font-size: 0.5em; }
   .footerPages {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .responsiveImgFooter {
+    width: 30%; } }
 
 @media (min-width: 576px) {
   .parrafoIndex1 {
@@ -775,22 +790,11 @@ main {
     width: 75%;
     margin-right: 12.5%;
     margin-left: 12.5%; }
-  .imgNos {
-    grid-area: imagenNosotros;
-    width: 75%;
-    margin-right: 12.5%;
-    margin-left: 12.5%; }
-  .pNosotros {
-    grid-area: textoN;
-    width: 82%;
-    margin-right: 9%;
-    margin-left: 9%;
-    margin-top: 3%; }
   .imgN1 {
     width: 100%; }
   .pn2 {
     margin-top: 2%;
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-weight: bold; }
   .tituloNosotros1 {
     width: 80%; }
@@ -801,10 +805,11 @@ main {
     margin-right: 15%;
     margin-left: 15%; }
   .footerGeneral {
-    top: 6%; }
+    top: 10%; }
   .tituloFooterSub {
-    width: 80%;
-    font-size: 0.7em; }
+    font-size: 1.5em; }
+  .parrafoFooter {
+    font-size: 0.8em; }
   .responsiveContacto {
     font-size: 1.2em; } }
 
@@ -829,12 +834,15 @@ main {
     margin-right: 10%;
     margin-left: 10%; }
   .tituloNosotros1 {
-    width: 60%; }
+    width: 70%; }
+  .pn2 {
+    font-size: 0.8em; }
   .footerGeneral {
     top: 10%; }
+  .tituloFooterSub2 {
+    font-size: 1.5em; }
   .tituloFooterSub {
-    width: 80%;
-    font-size: 0.8em; } }
+    font-size: 1.4em; } }
 
 @media (min-width: 992px) {
   .cajaPrincipalIndex {
@@ -859,10 +867,9 @@ main {
   .tituloNosotros1 {
     width: 60%; }
   .footerGeneral {
-    top: 8%; }
+    top: 10%; }
   .tituloFooterSub {
-    width: 80%;
-    font-size: 0.9em; } }
+    font-size: 1.8em; } }
 
 @media (min-width: 1400px) {
   .card-ofe {
@@ -873,15 +880,20 @@ main {
     font-size: 1.0em; }
   .pn2 {
     margin-top: 2%;
-    font-size: 1.0em;
+    font-size: 0.8em;
     font-weight: bold; }
   .tituloNosotros1 {
-    width: 50%; }
+    width: 50%;
+    height: 70%; }
   .footerGeneral {
     top: 15%; }
   .tituloFooterSub {
+    font-size: 2em; }
+  .parrafoFooter {
     width: 80%;
-    font-size: 1em; } }
+    font-size: 1em;
+    margin-left: 10%;
+    margin-right: 10%; } }
 
 * {
   margin: 0%;
